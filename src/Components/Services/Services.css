@@ -1,0 +1,68 @@
+.services
+{
+    height: 100vh;
+    
+}
+
+.back2
+{
+    position: absolute;
+    z-index: -1;
+    opacity: 25%;
+   top: 120.5%;
+    scale: 1.2;
+    left: -22%;
+}
+
+.s-left
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    flex: 1;
+    position: relative;
+    width: 75%;
+    
+}
+
+.s-left>:nth-child(1)
+{
+    font-size: 2.3rem;
+}
+
+.s-left>:nth-child(2)
+{
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: rgb(255, 18, 18);
+    margin-top: .5rem;
+}
+
+.s-left>:nth-child(3)
+{
+    margin-top: 1rem;
+    color: rgb(81, 72, 72);
+}
+
+.s-left>:nth-child(4)
+{
+    margin-top: 2rem;
+    width: 15rem;
+}
+
+.cards
+{
+    flex: 1;
+    display: flex;
+    position: relative;
+    gap: 4rem;
+}
+
+.cards>*
+{
+  position: absolute;
+}
+.but1
+{
+    width: 7rem;
+}

@@ -1,0 +1,28 @@
+.w-wrapper
+{
+    display: flex;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.back8
+{
+    position: absolute;
+    z-index: -1;
+    
+}
+.back8 >img{
+    top: -53%;
+    scale: 1.3;
+    position: absolute;
+    width: 70rem;
+    height: 45rem;
+    opacity: 40%;
+
+}
+.but2
+{
+   max-width: 30%;
+}

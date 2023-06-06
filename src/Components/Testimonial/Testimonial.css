@@ -1,0 +1,63 @@
+.t-container
+{
+    position: relative;
+}
+
+.t-cube
+{
+    position: absolute;
+    top: 5rem;
+    left: 34rem;
+    height: 45%;
+    width: 80%;
+
+}
+
+.t-wrapper
+{
+    height: 80vh;
+    
+}
+
+.t-left
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    flex: 1;
+    position: relative;
+    width: 75%;
+    
+}
+
+.t-left>:nth-child(1)
+{
+    font-size: 2.3rem;
+}
+
+.t-left>:nth-child(2)
+{
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: rgb(255, 18, 18);
+    margin-top: .5rem;
+}
+
+.t-left>:nth-child(3)
+{
+    margin-top: 2rem;
+    color: rgb(81, 72, 72);
+}
+
+.t-left>:nth-child(4)
+{
+    margin-top: 1rem;
+    color: rgb(81, 72, 72);
+}
+
+.t-left>:nth-child(5)
+{
+    margin-top: 1rem;
+    color: rgb(81, 72, 72);
+}
+

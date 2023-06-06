@@ -1,0 +1,124 @@
+.intro
+{
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+    position: relative;
+    
+}
+
+.back9
+{
+    position: absolute;
+    z-index: -1;
+    opacity: 25%;
+    top: -3rem;
+    scale: 0.7;
+    left: -3%;
+}
+
+.i-left
+{
+    display: flex;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name
+{
+    display: flex;
+    flex-direction: column;
+     gap: .5rem;
+}
+
+.i-name>:nth-child(1)
+{
+    font-size: 2.7rem;
+}
+
+.i-name>:nth-child(2)
+{
+    font-weight: bold;
+    font-size: 2.5rem;
+   
+    color: rgb(247, 32, 32);
+}
+
+.i-name>:nth-child(3)
+{
+    font-size: 0.9rem;
+    color: rgb(75, 77, 79);
+    margin-top: 0.5rem;
+}
+
+.i-icons
+{
+    
+    display: flex;
+    margin-top: 3rem;
+    gap: .1rem;
+    
+}
+
+.i-icons>*
+{
+    scale: 0.5;
+    
+}
+
+.i-right
+{
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+.i-right>*
+{
+    position: absolute;
+}
+
+.i-right>:nth-child(1)
+{
+    scale: 0.15;
+    z-index: 1;
+    left: -255%;
+    top: -327%;
+}
+
+.i-right>:nth-child(2)
+{
+    scale: 0.69;
+    top:-12% ;
+    left: -5%;
+    z-index: -2;
+}
+
+.i-right>:nth-child(3)
+{
+    scale: 0.6;
+    top: -23%;
+    left: -5%;
+    z-index: -1;
+}
+
+.i-right>:nth-child(4)
+{
+    border-radius: 5rem;
+    scale: 0.6;
+    left: -29%;
+    top: -18%;
+}
+
+.i-right>:nth-child(5)
+{
+    scale: 0.6;
+    left: 20%;
+  
+}
+.i-right>:nth-child(6)
+{
+    scale: 0.6;
+}

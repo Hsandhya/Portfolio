@@ -1,0 +1,64 @@
+.co-wrapper
+{
+    height: 80vh;
+}
+
+.co-left
+{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.co-left>:nth-child(1)
+{
+    font-size: 2.3rem;
+}
+
+.co-left>:nth-child(2)
+{
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: rgb(255, 18, 18);
+    margin-top: .5rem;
+}
+
+.co-left>:nth-child(3)
+{
+    margin-top: 1.5rem;
+    color: rgb(81, 72, 72);
+}
+
+
+
+.co-right
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    width: 15rem;
+    background-color: rgb(255, 221, 223);
+    margin-left: 47rem;
+    margin-top: -12rem;
+    gap: .5rem;
+    padding: 1.5rem;
+    border: 2px solid rgb(166, 19, 19);
+    border-radius: 8px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.but2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+input
+{
+   height: 1.4rem;
+   background-color: rgb(255, 254, 243);
+}
